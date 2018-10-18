@@ -1,7 +1,7 @@
 # S6APP3
 
 # À faire
-## AM
+## AM DONE
 La modulation AM est de type AM conventionnelle ou de type DSB (Double Side Band). Pour le démodulateur,
 il doit être fait de manière cohérente. Vous devez justifier votre indice de modulation
 ## ASK
