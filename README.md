@@ -1,7 +1,7 @@
 # S6APP3
 
 # À faire
-## AM 
+## AM DONE
 La modulation AM est de type AM conventionnelle ou de type DSB (Double Side Band). Pour le démodulateur,
 il doit être fait de manière cohérente. Vous devez justifier votre indice de modulation
 ## ASK
@@ -17,7 +17,7 @@ retrouve les deux symboles de -1 et 1 correspondant respectivement aux symboles 
 à remarquer que le 4-QAM et le 4-QPSK (Quadrature Phase Shift Keying) possèdent des constellations identiques, 
 mais qui sont créés de manière différentes. Il est donc possible d’utiliser les deux démodulateurs
 soient : par tangente inverse (QPSK) ou de manière cohérente (QAM). 
-## FM
+## FM DONE
 La modulation FM sera une modulation de cosinus et le démodulée par intégrale et détecteur d’enveloppe.
 L’utilisation des blocs d’intégrale et de dérivée sont suggérés afin de faciliter la conception. Vous devez
 justifier votre facteur de modulation
