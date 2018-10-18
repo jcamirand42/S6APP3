@@ -1,7 +1,7 @@
 # S6APP3
 
 # À faire
-## AM
+## AM DONE
 La modulation AM est de type AM conventionnelle ou de type DSB (Double Side Band). Pour le démodulateur,
 il doit être fait de manière cohérente. Vous devez justifier votre indice de modulation
 ## ASK
@@ -28,5 +28,5 @@ permet de laisser passer l’une des deux porteuses selon la valeur du bit à tr
 choisir le signal de sortie des filtres le plus haut afin de retrouver les bits. Par convention la porteuse la plus
 haute correspond au symbole binaire 1 et la plus basse au symbole binaire 0. Vous devez justifier le choix de
 vos deux fréquences porteuses.
-## 4-QPSK
+
 ## 16-PSK
