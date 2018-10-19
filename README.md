@@ -8,7 +8,7 @@ il doit être fait de manière cohérente. Vous devez justifier votre indice de 
 La modulation ASK (Amplitude Shift Keying) ou OOK (On-Off Keying) possède un débit de 1 kBits/seconde. Le
 démodulateur doit être fait de manière cohérente
 
-**FAIT EN PARTIE**
+**FAIT EN PARTIE**<br />
 Il manque à faire la partie matlab, où on encode les bits à transmettre. 
 ## 4-QAM
 La modulation 4-QAM est constituée de deux modulateur BPSK (Bipolar Phase Shift Keying) en quadrature
@@ -17,7 +17,8 @@ retrouve les deux symboles de -1 et 1 correspondant respectivement aux symboles 
 à remarquer que le 4-QAM et le 4-QPSK (Quadrature Phase Shift Keying) possèdent des constellations identiques, 
 mais qui sont créés de manière différentes. Il est donc possible d’utiliser les deux démodulateurs
 soient : par tangente inverse (QPSK) ou de manière cohérente (QAM). 
-**FAIT EN PARTIE**
+
+**FAIT EN PARTIE**<br />
 Il manque à faire la partie matlab, où on encode les bits à transmettre. 
 ## FM DONE
 La modulation FM sera une modulation de cosinus et le démodulée par intégrale et détecteur d’enveloppe.
