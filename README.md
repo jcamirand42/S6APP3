@@ -24,7 +24,7 @@ Il manque à faire la partie matlab, où on encode les bits à transmettre.
 La modulation FM sera une modulation de cosinus et le démodulée par intégrale et détecteur d’enveloppe.
 L’utilisation des blocs d’intégrale et de dérivée sont suggérés afin de faciliter la conception. Vous devez
 justifier votre facteur de modulation
-## FSK
+## FSK DONE
 La modulation FSK (Frequency Shift Keying) doit être faite avec les deux porteuses et un interrupteur qui
 permet de laisser passer l’une des deux porteuses selon la valeur du bit à transmettre. Le démodulateur peut
 être fait à l’aide d’un band de filtres suivi d’une valeur absolue. La méthode de décision est simplement,
