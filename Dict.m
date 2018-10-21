@@ -4,7 +4,7 @@ load('texte/CodeAscii.mat');
 arr = zeros(1, 256);
 i = 1;
 
-while i < length(TexteEntrainement)
+while i <= length(TexteEntrainement)
     [row, col] = find([CodeAscii{:}] == TexteEntrainement(i), 1);
     code = CodeAscii{col, 1};
     arr(1, code) = arr(1, code) + 1;
@@ -12,4 +12,6 @@ while i < length(TexteEntrainement)
 end
 
 [freq, indices] = sort(arr, 'descend');
+%dictionnary = huffmandict(indices, freq / length(TexteEntrainement));
+
 dictionnary = [freq ; indices]';
