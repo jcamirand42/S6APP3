@@ -7,4 +7,5 @@ load('texte/TableAscii.mat');
 load('texte/Huffman_Test.mat')
 
 dict = genhuffmandict(TexteEntrainement, TableAscii);
-output = string2huffman(MessageHuffman_Test, dict)
+huff = [zeros(1, 100) string2huffman(Texte_Test, dict)];
+output = huffman2string(huff, dict)
