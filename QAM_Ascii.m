@@ -74,11 +74,19 @@ while i <= fin-8
     end
     i=i+8;
 end
-time = (1:length(dataTransfer));
+time = (1:length(dataTransfer))/1000;
 table1 = [time',dataTransfer(:,1)];
 table2 = [time',dataTransfer(:,2)];
 
 sim('QAM');
+% subplot(2,1,1);
+% plot(simout_element1);
+% ylim([-0.1 1.1]);
+% xlim([0 0.35]);
+% subplot(2,1,2);
+% plot(table1(:,2));
+% ylim([-0.1 1.1])
+% xlim([0 375]);
 
 %% TEST CODE ASCII
 % i = 1;
