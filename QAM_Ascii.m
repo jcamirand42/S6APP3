@@ -74,8 +74,13 @@ while i <= fin-8
     end
     i=i+8;
 end
+time = (1:length(dataTransfer));
+table1 = [time',dataTransfer(:,1)];
+table2 = [time',dataTransfer(:,2)];
 
-%%
+sim('QAM');
+
+%% TEST CODE ASCII
 % i = 1;
 % code = [];
 % j = 0;
