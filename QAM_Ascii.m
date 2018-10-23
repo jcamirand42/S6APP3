@@ -79,6 +79,10 @@ table1 = [time',dataTransfer(:,1)];
 table2 = [time',dataTransfer(:,2)];
 
 sim('QAM');
+data1= simout_element1.signals.values(4:end); % delay for the data
+data2= simout_element2.signals.values(4:end); 
+tableaureconstitue = [data1,data2];
+%=========================================
 % subplot(2,1,1);
 % plot(simout_element1);
 % ylim([-0.1 1.1]);
@@ -87,15 +91,19 @@ sim('QAM');
 % plot(table1(:,2));
 % ylim([-0.1 1.1])
 % xlim([0 375]);
-
+%==========================================
 %% TEST CODE ASCII
-% i = 1;
-% code = [];
-% j = 0;
-% while i <= length(Data_Test_Ascii)
-%     [row, col] = find([CodeAscii{:}] == Data_Test_Ascii(i), 1);
-%     code(i) = CodeAscii{col, 2};
-%     i = i+1;
-% end
-% 
-% binCode = cellstr(dec2bin(code,8))';
+i = 1;
+code = [];
+j = 0;
+while i <= length(Data_Test_Ascii)
+    [row, col] = find([CodeAscii{:}] == Data_Test_Ascii(i), 1);
+    while j < 8 
+        
+        j = j+1;
+    end
+    code(i) = CodeAscii{col, 2};
+    i = i+1;
+end
+
+binCode = cellstr(dec2bin(code,8))';
