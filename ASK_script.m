@@ -14,3 +14,8 @@ load('texte/Huffman_Test.mat')
 
 dict = genhuffmandict(TexteEntrainement, TableAscii);
 output = huffman2string(fsk_output, dict)
+
+
+%BER
+[number, ratio] = biterr([0 ,0, 0 ,0, MessageHuffman_Test(1:1097)], fsk_output')
+
