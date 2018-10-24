@@ -8,4 +8,4 @@ signal = [t', y];
 sim('AM')
 sound(simout, 100000)
 
-snr(simout, noise)
+P_db_bruit = 10*log10(1/5)
