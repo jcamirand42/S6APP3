@@ -1,4 +1,4 @@
-function returnedArray = fct_send_mess(decimalArray,codeAscii)
+function returnedArray = fct_send_mess(codeAscii)
 sim('QAM2016');
 data1= simout_element1.signals.values;
 data2= simout_element2.signals.values; 

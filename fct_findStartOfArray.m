@@ -10,7 +10,9 @@ while nbUn < 8
     else
         nbUn = 0;
     end
-    
+    if i==length(array)
+        break;
+    end
     i = i+1;
 end
 
